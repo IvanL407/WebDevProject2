@@ -2,14 +2,27 @@
     text-align: center;
     height: 40px;
     border: 5px solid blue;
+
 }
 
-#history{
+.subtitle{
+    text-align: center;
+    height: 35px;
+    font-size: 30px;
+}
+
+.info{
     vertical-align: left;
     font-size: 25px;
 }
 
 #Colston{
     vertical-align: right;
+}
+#Tech{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
