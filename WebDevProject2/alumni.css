@@ -1,0 +1,36 @@
+.container{
+    background-color: lightgray;
+}
+
+.link{
+    text-align: center;
+    display: block;
+}
+
+#title{
+    text-align: center;
+    height: 40px;
+    border: 5px solid blue;
+}
+
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.gallery:hover{
+    border: 1px solid #777;
+}
+
+.gallery img{
+    width: 100%;
+    height: 200px;
+}
+
+.description{
+    padding: 15px;
+    height: 50px;
+    text-align: center;
+}
