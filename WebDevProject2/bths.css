@@ -27,6 +27,13 @@
 
 #Colston{
     vertical-align: right;
+    width: 30%;
+    height: 30%;
+}
+#Subway{
+    vertical-align: left;
+    width: 60%;
+    height: 60%;
 }
 #Tech{
     display: block;
