@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BTHS</title>
     <script>
-        let yes = document.getElementById('yes').value;
-        console.log(yes);
+        function doForm() {
+            var data = new FormData(document.getElementById("form"));
+        }
     </script>
 
     <link rel="stylesheet" href="bths.css">
@@ -42,12 +43,13 @@
         </ul>
 
 
-        <form>
+        <form id="form" onsubmit="return doForm()">
             <label for="helpful">Was this website helpful?</label>
             <input type="radio" id="yes" name="helpful" value="yes">
             <label for="yes">Yes</label>
             <input type="radio" id="no" name="helpful" value="no">
             <label for="no">No</label>
+            <input type="submit" value="Submit"/>
         </form>
 
         <footer>

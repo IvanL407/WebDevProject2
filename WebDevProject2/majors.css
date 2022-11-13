@@ -2,9 +2,28 @@
     background-color: lightgray;
 }
 
-.link{
-    text-align: center;
-    display: block;
+@media only screen and (max-width: 500px) {
+    .link{
+        display: inline;
+    }
+    .subtitle{
+        text-align: left;
+        height: 35px;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+}
+@media only screen and (min-width: 501px) {
+    .link{
+        text-align: center;
+        display: block;
+    }
+    .subtitle{
+        text-align: center;
+        height: 35px;
+        font-size: 30px;
+        text-decoration: underline;
+    }
 }
 
 table, th, td{
@@ -17,12 +36,7 @@ table, th, td{
     border: 5px solid blue;
 }
 
-.subtitle{
-    text-align: center;
-    height: 35px;
-    font-size: 30px;
-    text-decoration: underline;
-}
+
 
 .info{
     vertical-align: left;
