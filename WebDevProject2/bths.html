@@ -5,15 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BTHS</title>
+    <script>
+        let yes = document.getElementById('yes').value;
+        console.log(yes);
+    </script>
+
     <link rel="stylesheet" href="bths.css">
 </head>
 <body>
     <div class="container">
 
         <h1 id="title">Brooklyn Technical High School</h1>
-        <a class="link" href="/majors.html">Majors</a>
-        <a class="link" href="/alumni.html">Alumni</a>
-        <a class="link" href="/activities.html">Activities</a>
+
+        <div class="link">
+            <a href="/majors.html">Majors</a>
+            <a href="/alumni.html">Alumni</a>
+            <a href="/activities.html">Activities</a>
+        </div>
+
         <img id="Tech" src="bk-Tech.jpg" alt="Brooklyn Tech">
         
         <h2 class="subtitle">History</h2>
@@ -31,6 +40,15 @@
             <li>Brooklyn Tech has over 5,900 students.</li>
             <li>Brooklyn Tech has over 40 athletics and 150 clubs.</li>
         </ul>
+
+
+        <form>
+            <label for="helpful">Was this website helpful?</label>
+            <input type="radio" id="yes" name="helpful" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="helpful" value="no">
+            <label for="no">No</label>
+        </form>
 
         <footer>
             <p>&#169 Ivan Luc 2022</p>
