@@ -40,3 +40,27 @@ table, th, td{
     vertical-align: left;
     font-size: 25px;
 }
+
+.photos{
+    display: grid;
+    width: 100%;
+    object-fit: cover;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+#track{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}   
+#basketball{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+#swim{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+#cafe{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
