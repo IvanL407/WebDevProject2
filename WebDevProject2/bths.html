@@ -13,6 +13,8 @@
 
         <h1 id="title">Brooklyn Technical High School</h1>
 
+        <!--I created this website independently. First, I got all of the information I needed onto the website pages. Then, I used CSS selectors to style the website and make it look better. It took a long time, but I'm happy with the outcome.-->
+
         <div class="link">
             <a href="/majors.html">Majors</a>
             <a href="/alumni.html">Alumni</a>
@@ -38,13 +40,15 @@
         </ul>
 
 
-        <form id="form" onsubmit="return doForm()">
-            <label for="helpful">Was this website helpful?</label>
-            <input type="radio" id="yes" name="helpful" value="yes">
-            <label for="yes">Yes</label>
-            <input type="radio" id="no" name="helpful" value="no">
-            <label for="no">No</label>
-            <input type="submit" value="Submit"/>
+        <form 
+            action="https://formspree.io/f/meqdnlrn"
+            method="POST"
+        >
+            <label>
+                Rate this website (1 - 10):
+                <input type="Rating" name="Rating">
+            </label>
+            <button type="submit">Submit</button>
         </form>
 
         <footer>
